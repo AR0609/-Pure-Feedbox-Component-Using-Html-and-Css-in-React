@@ -1,0 +1,58 @@
+
+.feedbox {
+	display: flex;
+	.Help {
+		background: #fef5e8;
+	}
+	.Success {
+		background: #8ef9b3;
+	}
+	.Warning {
+		background: #ffdc91;
+	}
+	.Error {
+		background: #ff9691;
+	}
+	.icon {
+		height: 20px;
+	}
+	.imagebox {
+		// height: 40px;
+		width: 40px;
+		border-radius: 8px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 8px 0px;
+	}
+	.content-box {
+		box-shadow: 0px 8px 24px -12px #bdbdbd;
+		padding: 12px 0px;
+		width: 75%;
+		.box-text {
+			margin-bottom: 2px;
+			font-family: Montserrat-light;
+			font-size: 14px;
+			font-weight: 300, light;
+			line-height: 16px;
+			letter-spacing: 0em;
+			text-align: left;
+			color: #00344e;
+			display: flex;
+			align-items: center;
+			margin-left: 8px;
+		}
+		.box-desc {
+			font-family: Montserrat-light;
+			font-size: 14px;
+			font-weight: 300, light;
+			line-height: 16px;
+			letter-spacing: 0em;
+			text-align: left;
+			color: #00344e;
+			display: flex;
+			align-items: center;
+			margin-left: 8px;
+		}
+	}
+}
